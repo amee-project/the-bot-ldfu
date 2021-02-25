@@ -1,4 +1,4 @@
-# Linked Data FU (LDFU) Agent for Maze RD Server
+# Linked Data FU (LDFU) Agent for Maze RDF Server
 
 **Forked and moded from the following repo: https://github.com/aharth/2021-02-dagstuhl**
 
@@ -6,8 +6,10 @@ NOTE: This repo depends on a local copy of the `ldfu` suite.
 
  * beginner's maze: `$ ldfu.sh -p beginner-maze.n3 -q exit.rq -`
  * expert's maze: `$ ldfu.sh -p expert-maze.n3 -q exit.rq -`
- 
- ## Query for the path to exit
+
+You can find a compatible Maze Server here: http://github.com/amee-project/maze-server/
+
+## Query for the path to exit
 
 `$ ldfu.sh -p beginner-maze.n3 -q path-to-exit.rq -`
 
